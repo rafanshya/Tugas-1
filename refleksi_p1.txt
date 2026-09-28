@@ -1,0 +1,19 @@
+1. Compiler dan interpreter sama-sama digunakan untuk menjalankan program. 
+   Compiler menerjemahkan seluruh kode program menjadi bahasa mesin terlebih dahulu, 
+   sedangkan interpreter menerjemahkan dan menjalankan kode sedikit demi sedikit. 
+   Karena itu, program hasil compiler biasanya dapat berjalan lebih cepat.
+
+2. Bahasa C dapat digunakan untuk membuat program mikrokontroler pada sistem embedded, 
+   misalnya untuk mengendalikan sensor dan motor. Bahasa C juga digunakan dalam pembuatan 
+   perangkat lunak PLC atau sistem kendali pada bidang Teknik Elektro. 
+   Contohnya adalah program untuk membaca sensor suhu dan mengatur kecepatan motor.
+
+3. Fungsi main() merupakan titik awal ketika program C mulai dijalankan. 
+   Dari fungsi inilah komputer memulai instruksi-instruksi program. 
+   Jika fungsi main() tidak ada, program biasanya gagal melakukan proses linking 
+   dan tidak dapat dibuat menjadi file yang bisa dijalankan.
+
+4. Penamaan variabel yang jelas membantu kita memahami isi atau fungsi data di dalam program.
+   Dalam program pengukuran teknik, nama seperti teganganInput atau arusBeban lebih mudah 
+   dipahami daripada nama yang terlalu singkat seperti x atau y. Hal ini mengurangi kesalahan
+   saat membaca, memeriksa, dan mengembangkan program.
